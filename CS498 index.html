@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF8">
+    <meta name="description" content="">
+    <title>CoviD 19 Analysis: Correlation of Excessive Deaths in US States with underlying morbidity patterns and availability of hospital beds</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom styling -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .line {
+    stroke: #E4002B;
+    fill: none;
+    stroke-width: 3;
+}
+.tooltip {
+  position: absolute;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 5px #999999;
+}
+
+rect.disabled { 
+  fill: transparent !important;
+}
+form {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+input {
+  margin: 0 7px;
+}
+p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 80px;
+  margin-left: 80px;
+
+}
+h3{
+      margin-left: 80px;
+
+}
+h1{
+      margin-left: 80px;
+
+}
+h2{
+      margin-left: 80px;
+
+}
+
+    </style>
+</head>
+
+<body>
+    <h1> An Analysis of excessive deaths due to CoviD 19 in US States in 2020</h1>
+    <h2> Relationships with available health infrastructure and pre-existing disease patterns</h2>
+
+<p style = "font-family:georgia,garamond,serif;font-size:22px;" ">
+    Since January'20, the world has reported >14.2 Mn cases and ~600k deaths due to CoviD 19. 
+    The US alone has seen ~3.8 Mn cases and ~142k deaths. In this story, we analyze excessive deaths due to Covid 19. 
+</p>
+
+    <h3> Excess deaths in different US States due to CovID 19 (February 1, 2020 - July 1 2020)</h3>
+    
+
+    <!-- Bootstrap grid setup -->
+    <div class="container">
+        <div class="row">
+            <div id="chart-area"></div>
+        </div>
+    </div>
+
+<!-- External JS libraries -->
+<script src="js/d3.min.js"></script>
+<!-- Custom JS -->
+<script src="js/barchart.js"></script>  
+
+<p> We tried to understand the relationship between excessive deaths and the hospital beds in a state. Hospital beds were used as a proxy for the availability of healthcare infrastructure in a state. Data was pulled from Kaiser Family Foundation research in 2018 <a href="https://www.kff.org/other/state-indicator/beds-by-ownership/?currentTimeframe=0&sortModel=%7B%22colId%22:%22Location%22,%22sort%22:%22asc%22%7D">Link</a>
+The following graph shows that there is some inverse correlaion between excessive deaths and hospital beds. Generally, states with >= 3.5 beds per 1000 people had lower number of excessive deaths.  </p>
+
+<div id="scatterplot-area"></div>
+<script src="js/scatterplot.js"></script>
+
+
+<p> Let us now explore the underlying conditions which contributed to deaths in CoviD 19. The data shows the contribution of underlying causes to deaths related to CoviD 19 in the US. Insert placeholder on what the data looks like for different states. 
+
+Our data indicates that the excessive deaths due to CoviD 19 can be partially explained by the existing mortality patterns in states. data indicates that circulatory and respiratory conditions are major contributors to death in Covid 19. We looked at the mortality data from 2015-2019 and 2 diseases were predictive of excessive deaths: Ischemic heart disease and Other diseases of the respiratory system. States where these appeared in the top 10 causes of death during 2015-2019 were particularly affected. These include Connecticut, Massachussets, Missouri, New Jersey and Pennsylvania. In NYC, the leading cause of mortality is Ischemic heart disease, a disease which is significantly correlated with excessive mortality. </p>
+
+<!--<select id="selectButton"></select>-->
+<div class="dropDownMenu">
+    <select id="selection">
+    </select>
+</div>
+
+
+<div id="chart"></div>  
+<script src="js/d3-tip.js"></script> 
+
+<script src="/js/piechartdropdown.js"></script>
+
+<P>The following charts show the diseases which partially explained the number of excessive deaths. These include Heart failure, Influenza and pneumonia, other diseases of the respiratory system, renal failure and sepsis. </P>
+
+
+<p> Data also indicates that the underlyting cause of mortality in Covid Deaths are respiratory and circulatory problems. This correlates well with our model where we take incidence of all cause mortality due to circulatory and respiratory diseases, and find that ischemic heart disease and other diseases of the respiratory system are most significant in explaining excessive deaths. This correlates well with the fact where places like NYC with high mortality to IHD have very high death figures. </p>
+
+<div id="scatterplotdiseases-area"></div>  
+<script src="js/d3-tip.js"></script> 
+
+<script src="/js/scatterplotHF.js"></script>
+<script src="/js/scatterplotInfluenza.js"></script>
+
+<script src="/js/scatterplotothers.js"></script>
+<script src="/js/scatterplotrenal.js"></script>
+
+
+
+</body>
+</html>

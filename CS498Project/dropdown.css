@@ -1,0 +1,11 @@
+.tooltip {
+  position: absolute;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 5px #999999;
+}
+
+rect.disabled { 
+  fill: transparent !important;
+}

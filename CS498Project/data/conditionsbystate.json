@@ -1,0 +1,157 @@
+[
+  {
+    "State": "Alabama",
+    "Category": "Alzheimer disease and dementia",
+    "count": 11.483
+  },
+  {
+    "State": "Alabama",
+    "Category": "Cerebrovascular diseases",
+    "count": 7.151
+  },
+  {
+    "State": "Alabama",
+    "Category": "Chronic lower respiratory disease",
+    "count": 8.283
+  },
+  {
+    "State": "Alabama",
+    "Category": "Diabetes",
+    "count": 2.853
+  },
+  {
+    "State": "Alabama",
+    "Category": "Heart failure",
+    "count": 6.146
+  },
+  {
+    "State": "Alabama",
+    "Category": "Hypertensive dieases",
+    "count": 3.3
+  },
+  {
+    "State": "Alabama",
+    "Category": "Influenza and pneumonia",
+    "count": 2.581
+  },
+  {
+    "State": "Alabama",
+    "Category": "Ischemic heart disease",
+    "count": 12.039
+  },
+  {
+    "State": "Alabama",
+    "Category": "Malignant neoplasms",
+    "count": 24.987
+  },
+  {
+    "State": "Alabama",
+    "Category": "Other diseases of the circulatory system",
+    "count": 13.014
+  },
+  {
+    "State": "Alabama",
+    "Category": "Other diseases of the respiratory system",
+    "count": 3.342
+  },
+  {
+    "State": "Alabama",
+    "Category": "Renal failure",
+    "count": 2.367
+  },
+  {
+    "State": "Alabama",
+    "Category": "Sepsis",
+    "count": 2.456
+  },
+  {
+    "State": "Alaska",
+    "Category": "Alzheimer disease and dementia",
+    "count": 1.242
+  },
+  {
+    "State": "Alaska",
+    "Category": "Chronic lower respiratory disease",
+    "count": 0.213
+  },
+  {
+    "State": "Alaska",
+    "Category": "Ischemic heart disease",
+    "count": 17.58
+  },
+  {
+    "State": "Alaska",
+    "Category": "Malignant neoplasms",
+    "count": 79.457
+  },
+  {
+    "State": "Alaska",
+    "Category": "Other diseases of the circulatory system",
+    "count": 1.508
+  },
+  {
+    "State": "Arizona",
+    "Category": "Alzheimer disease and dementia",
+    "count": 11.995
+  },
+  {
+    "State": "Arizona",
+    "Category": "Cerebrovascular diseases",
+    "count": 6.377
+  },
+  {
+    "State": "Arizona",
+    "Category": "Chronic lower respiratory disease",
+    "count": 8.971
+  },
+  {
+    "State": "Arizona",
+    "Category": "Diabetes",
+    "count": 4.941
+  },
+  {
+    "State": "Arizona",
+    "Category": "Heart failure",
+    "count": 1.593
+  },
+  {
+    "State": "Arizona",
+    "Category": "Hypertensive dieases",
+    "count": 5.665
+  },
+  {
+    "State": "Arizona",
+    "Category": "Influenza and pneumonia",
+    "count": 1.978
+  },
+  {
+    "State": "Arizona",
+    "Category": "Ischemic heart disease",
+    "count": 18.516
+  },
+  {
+    "State": "Arizona",
+    "Category": "Malignant neoplasms",
+    "count": 28.795
+  },
+  {
+    "State": "Arizona",
+    "Category": "Other diseases of the circulatory system",
+    "count": 7.141
+  },
+  {
+    "State": "Arizona",
+    "Category": "Other diseases of the respiratory system",
+    "count": 2.721
+  },
+  {
+    "State": "Arizona",
+    "Category": "Renal failure",
+    "count": 0.927
+  },
+  {
+    "State": "Arizona",
+    "Category": "Sepsis",
+    "count": 0.38
+  }
+]
